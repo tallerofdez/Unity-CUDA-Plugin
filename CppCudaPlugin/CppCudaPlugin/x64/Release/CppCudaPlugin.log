@@ -1,0 +1,26 @@
+﻿  Compiling CUDA source file File.cu...
+  
+  C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\Unity\Hub\Editor\2020.3.48f1\Editor\Data\PluginAPI" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o x64\Release\File.cu.obj "C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\File.cu" 
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(42): warning : variable "THREAD_SIZE" was declared but never referenced
+  
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(78): warning : variable "THREAD_SIZE" was declared but never referenced
+  
+  file.cu
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(43): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(43): warning C4244: 'inicializando': conversión de 'double' a 'const int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(57): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(57): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(57): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(79): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(79): warning C4244: 'inicializando': conversión de 'double' a 'const int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(93): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(93): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cppcudaplugin\cppcudaplugin\file.cu(93): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+     Creando biblioteca C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\x64\Release\CppCudaPlugin.lib y objeto C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\x64\Release\CppCudaPlugin.exp
+  Generando código
+  0 of 3 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  CppCudaPlugin.vcxproj -> C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\x64\Release\CppCudaPlugin.dll
+          1 archivo(s) copiado(s).

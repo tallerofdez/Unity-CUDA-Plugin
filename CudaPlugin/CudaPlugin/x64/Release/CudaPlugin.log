@@ -1,0 +1,42 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\User\Documents\Unity CUDA Plugin\CudaPlugin\CudaPlugin>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o x64\Release\kernel.cu.obj "C:\Users\User\Documents\Unity CUDA Plugin\CudaPlugin\CudaPlugin\kernel.cu" 
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(89): warning : type qualifier on return type is meaningless
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(92): warning : variable "THREAD_SIZE" was declared but never referenced
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(125): warning : type qualifier on return type is meaningless
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(128): warning : variable "THREAD_SIZE" was declared but never referenced
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(171): warning : type qualifier on return type is meaningless
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(184): warning : variable "THREAD_SIZE" was declared but never referenced
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(89): warning : type qualifier on return type is meaningless
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(125): warning : type qualifier on return type is meaningless
+  
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(171): warning : type qualifier on return type is meaningless
+  
+  kernel.cu
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(93): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(93): warning C4244: 'inicializando': conversión de 'double' a 'const int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(106): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(106): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(106): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(129): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(129): warning C4244: 'inicializando': conversión de 'double' a 'const int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(152): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(152): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(152): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(174): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(185): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(185): warning C4244: 'inicializando': conversión de 'double' a 'const int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(209): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(209): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+c:\users\user\documents\unity cuda plugin\cudaplugin\cudaplugin\kernel.cu(209): warning C4244: 'argumento': conversión de 'double' a 'unsigned int'; posible pérdida de datos
+     Creando biblioteca C:\Users\User\Documents\Unity CUDA Plugin\CudaPlugin\CudaPlugin\x64\Release\CudaPlugin.lib y objeto C:\Users\User\Documents\Unity CUDA Plugin\CudaPlugin\CudaPlugin\x64\Release\CudaPlugin.exp
+  LINK : se especificó /LTCG pero no se requiere generación de código; quite /LTCG de la línea de comandos de vínculo para mejorar el rendimiento del vinculador
+  CudaPlugin.vcxproj -> C:\Users\User\Documents\Unity CUDA Plugin\CudaPlugin\CudaPlugin\x64\Release\CudaPlugin.dll
+          1 archivo(s) copiado(s).

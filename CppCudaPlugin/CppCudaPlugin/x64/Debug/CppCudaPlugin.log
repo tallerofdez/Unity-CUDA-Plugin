@@ -1,0 +1,5 @@
+﻿  CppCudaPlugin.vcxproj -> C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\x64\Debug\CppCudaPlugin.dll
+          0 archivo(s) copiado(s).
+  El sistema no puede encontrar la ruta especificada.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: El comando "copy/Y "C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\x64\Debug\CppCudaPlugin".dll "C:\Users\User\Documents\Unity CUDA Plugin\CppCudaPlugin\CppCudaPlugin\..\Assets\Plugins\CppCudaPlugin".dll
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(155,5): error MSB3073: :VCEnd" salió con el código 1.
